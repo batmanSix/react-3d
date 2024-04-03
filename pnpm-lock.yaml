@@ -8,7 +8,7 @@ specifiers:
   '@types/react-dom': ^18.0.10
   '@vitejs/plugin-react': ^3.1.0
   autoprefixer: ^10.4.13
-  framer-motion: ^9.0.7
+  framer-motion: 10.9.0
   maath: ^0.5.2
   postcss: ^8.4.21
   react: ^18.2.0
@@ -24,7 +24,7 @@ dependencies:
   '@emailjs/browser': 3.12.1
   '@react-three/drei': 9.103.1_x5btfksvplm4sfxwyuyy67vbhq
   '@react-three/fiber': 8.16.1_xor7byvqlg4baqj6ymfbcmaax4
-  framer-motion: 9.1.7_biqbaboplfbrettd7655fr4n2y
+  framer-motion: 10.9.0_biqbaboplfbrettd7655fr4n2y
   maath: 0.5.3_three@0.149.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -1147,11 +1147,16 @@ packages:
     resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
     dev: true
 
-  /framer-motion/9.1.7_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-nKxBkIO4IPkMEqcBbbATxsVjwPYShKl051yhBv9628iAH6JLeHD0siBHxkL62oQzMC1+GNX73XtPjgP753ufuw==}
+  /framer-motion/10.9.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-J7aJikwmeKEIMPcXGdIKCL4Zh7xRwAlLXw8klRvDnZwYYnBZhVB0RF+54AAlZ3yJS6U+zEJWP3uVoNTbkjYesg==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
